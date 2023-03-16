@@ -20,6 +20,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
+- Create a Virtual Machine using Microsoft Azure
 - Using Remote Desktop Protocol into your Windows 10 virtual machine
 - Install / Enable IIS in Windows with CGI
 - Download and install PHP Manager for IIS
@@ -37,6 +38,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 
 <h2>Installation Steps</h2>
+
+<p>
+<img src="https://i.imgur.com/QdFQkre.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>Create a Virtual Machine inside Microsoft Azure</p>
 
 <p>
 <img src="https://i.imgur.com/GaO2jCL.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
