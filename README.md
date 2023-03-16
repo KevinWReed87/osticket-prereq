@@ -42,10 +42,22 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p>
 <img src="https://i.imgur.com/QdFQkre.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-<p>Create a Virtual Machine inside Microsoft Azure</p>
+
+<p><img src="https://i.imgur.com/md4RHle.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> </p>
+
+<p><img src="https://i.imgur.com/TRtmZBP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p>
+
+
+
+<p>Creating a Virtual Machine using Microsoft Azure. Azure Virtual Machine Windows 10, 4 vCPUs Name: Vm-osticket Username: labuser Password: osTicketPassword1!
+Then using the ip address assigned to the Virtual Machine to remote desktop into the VM.
+</p>
 
 <p>
 <img src="https://i.imgur.com/GaO2jCL.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://i.imgur.com/hpIUUkF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Remote desktop in the virtual machine created with Microsoft Azure using the virtual machine ip address found on Azure.
