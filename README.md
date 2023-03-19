@@ -114,3 +114,7 @@ Password1 (root will be the username, but you don't need to set that up)</p>
 <p>On the left expand the menus osTicket-VM -> Sites -> Default Web Site -> then click on osTicket.
 On the right hit Browse *:80 and you should see the osTicket installer open inside of your default browser.
 </p>
+
+<p><img src="https://i.imgur.com/8mOuO3P.png"</p>
+ <p>Go to IIS, sites, Defualt, osTicket, double click PHP Manager, click on Enable or Disable an extension. Enable the following extensions: php_imap.dll, php_intl.dll, php_opcache.dll and observe the changes in the osTicket site on the web browser
+</p>
