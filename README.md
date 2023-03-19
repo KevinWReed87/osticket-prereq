@@ -85,5 +85,15 @@ From the installation files download and install PHP Manager for IIS  (PHPManage
 
 <p><img src="https://i.imgur.com/oW2wXGm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p>
 <p>Download and extract all PHP files in to the previously created PHP folder under C:.
-
 </p>
+
+<p><img src="https://i.imgur.com/KXav9D9.png"</p>
+<p>Download and install VC_redist.x86.exe.
+
+Download and install mysql-5.5.62-win32.msi
+
+Typical Setup ->
+Launch Configuration Wizard (after install) ->
+Standard Configuration ->
+Next ->
+Password1 (root will be the username, but you don't need to set that up)</p>
