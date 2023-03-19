@@ -75,7 +75,7 @@ Remote desktop in the virtual machine created with Microsoft Azure using the vir
 Install and enable IIS in Windows WITH CGI. Right click start select run, type control themn programs. Turn windows features on and off. 
   Then select World Wide Web Services -> Application Development Features -> CGI then press ok for installation.
 <br />
-
+<h2>Download and Install PHP Manager for IIS, Rewrite Module, and create the directory C:\PHP</h2>
 <p><img src="https://i.imgur.com/dt92GjH.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p>
 <p>
 From the installation files download and install PHP Manager for IIS  (PHPManagerForIIS_V1.5.0.msi). Also download Rewrite Module (rewrite_amd64_en-US.msi)
@@ -87,7 +87,7 @@ From the installation files download and install PHP Manager for IIS  (PHPManage
 <p><img src="https://i.imgur.com/oW2wXGm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p>
 <p>Download and extract all PHP files in to the previously created PHP folder under C:.
 </p>
-
+<h2>Download and install VC_redist and MySQL</h2>
 <p><img src="https://i.imgur.com/KXav9D9.png"</p>
 <p>Download and install VC_redist.x86.exe.
 
