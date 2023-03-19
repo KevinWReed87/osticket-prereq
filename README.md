@@ -108,3 +108,9 @@ Password1 (root will be the username, but you don't need to set that up)</p>
 <p><img src="https://i.imgur.com/9Em2X90.png"  height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>After restarting the server, Install the osTicket file from the installation folder. Extract and copy the "upload folder" to c:\inetpub\wwwroot (simply dragging and dropping the file and renaming it "osTicket". Then restart IIS inside the server.</p>
+
+<p><img src="https://i.imgur.com/FYPo5OZ.png"</p>
+<p><img src="https://i.imgur.com/Q4xSVIg.png"</p>
+<p>On the left expand the menus osTicket-VM -> Sites -> Default Web Site -> then click on osTicket.
+On the right hit Browse *:80 and you should see the osTicket installer open inside of your default browser.
+</p>
