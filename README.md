@@ -97,3 +97,11 @@ Launch Configuration Wizard (after install) ->
 Standard Configuration ->
 Next ->
 Password1 (root will be the username, but you don't need to set that up)</p>
+
+<p><img src="https://i.imgur.com/pa8KSq6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p>
+
+<p><img src="https://i.imgur.com/2lb5Sqi.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p>
+
+<p>After installing all of the required files, open IIS and run IIS as an Administrator and register PHP in IIS. Double-click on PHP --> Click on Register PHP new version. Follow the sequence in the C:\ directory, PHP -> php.cgi.exe. Once PHP has been registered make sure to restart the server, by clicking "Restart Server".
+
+</p>
