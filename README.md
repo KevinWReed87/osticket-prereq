@@ -63,7 +63,8 @@ Then using the ip address assigned to the Virtual Machine to remote desktop into
 Remote desktop in the virtual machine created with Microsoft Azure using the virtual machine ip address found on Azure.
 </p>
 <br />
-
+<h2>Install / Enable IIS in Windows WITH CGI
+</h2>
 <p>
 <img src="https://i.imgur.com/vJvgqN3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -118,3 +119,39 @@ On the right hit Browse *:80 and you should see the osTicket installer open insi
 <p><img src="https://i.imgur.com/8mOuO3P.png"</p>
  <p>Go to IIS, sites, Defualt, osTicket, double click PHP Manager, click on Enable or Disable an extension. Enable the following extensions: php_imap.dll, php_intl.dll, php_opcache.dll and observe the changes in the osTicket site on the web browser
 </p>
+
+<h2>Rename: ost-config in PHP folder </h2>
+<p>
+<img src="https://imgur.com/F7El4Yy.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Go into file explorer and remove sample from "ost-sampleconfig.php by following C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php. Rename the file to "ost-config.php
+</p>
+<br />
+
+<h2>Assign Permissions in ost-config.php and continue to setup osTicket </h2>
+<p>
+<img src="https://imgur.com/8ax66cQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Go to ost-config.php, right click, select properties, select security, and select advanced. Click on everyone, click on edit, and change to only read and read and view
+</p>
+<br />
+
+<h2>Download and install HeidiSQL and continue to setup osTicket in the browser </h2>
+<p>
+<img src="https://imgur.com/R59XQRu.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Download and install HeidiSQL. Add in password from MySQL setup to connect the database. Once, connected to the database, continue to fill out the following information for osTicket in the web browser and click "Install Now"
+</p>
+<br />
+
+<h2>Clean Up</h2>
+<p>
+<img src="https://imgur.com/yRw4fvm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Delete "setup" folder in osTicket file and Set permissions to Read only in ost-config.php
+</p>
+<br />
