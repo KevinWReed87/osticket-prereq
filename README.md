@@ -65,11 +65,14 @@ Remote desktop in the virtual machine created with Microsoft Azure using the vir
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/vJvgqN3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+ <img src="https://i.imgur.com/rFUQoyB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+<p>
+Install and enable IIS in Windows WITH CGI. Right click start select run, type control themn programs. Turn windows features on and off. 
+  Then select World Wide Web Services -> Application Development Features -> CGI then press ok for installation.
 <br />
 
 <p>
