@@ -102,20 +102,20 @@ Password1 (root will be the username, but you don't need to set that up)</p>
 <p><img src="https://i.imgur.com/pa8KSq6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p>
 
 <p><img src="https://i.imgur.com/2lb5Sqi.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p>
-
+<h2>Open IIS as an Admin and Register PHP inside IIS</h2>
 <p>After installing all of the required files, open IIS and run IIS as an Administrator and register PHP in IIS. Double-click on PHP --> Click on Register PHP new version. Follow the sequence in the C:\ directory, PHP -> php.cgi.exe. Once PHP has been registered make sure to restart the server, by clicking "Restart Server".
 </p>
 
 <p><img src="https://i.imgur.com/9Em2X90.png"  height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>After restarting the server, Install the osTicket file from the installation folder. Extract and copy the "upload folder" to c:\inetpub\wwwroot (simply dragging and dropping the file and renaming it "osTicket". Then restart IIS inside the server.</p>
-
+<h2>Reload IIS and Browse to *:80 to enable the extensions needed</h2>
 <p><img src="https://i.imgur.com/FYPo5OZ.png"</p>
 <p><img src="https://i.imgur.com/Q4xSVIg.png"</p>
 <p>On the left expand the menus osTicket-VM -> Sites -> Default Web Site -> then click on osTicket.
 On the right hit Browse *:80 and you should see the osTicket installer open inside of your default browser.
 </p>
-
+<h2>Enable extensions in IIS</h2>
 <p><img src="https://i.imgur.com/8mOuO3P.png"</p>
  <p>Go to IIS, sites, Defualt, osTicket, double click PHP Manager, click on Enable or Disable an extension. Enable the following extensions: php_imap.dll, php_intl.dll, php_opcache.dll and observe the changes in the osTicket site on the web browser
 </p>
@@ -129,7 +129,7 @@ Go into file explorer and remove sample from "ost-sampleconfig.php by following 
 </p>
 <br />
 
-<h2>Assign Permissions in ost-config.php and continue to setup osTicket </h2>
+<h2>Assign Permissions in ost-config.php and continue setup of osTicket </h2>
 <p>
 <img src="https://imgur.com/8ax66cQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -138,7 +138,7 @@ Go to ost-config.php, right click, select properties, select security, and selec
 </p>
 <br />
 
-<h2>Download and install HeidiSQL and continue to setup osTicket in the browser </h2>
+<h2>Download and install HeidiSQL and continue setup of osTicket in the browser </h2>
 <p>
 <img src="https://imgur.com/R59XQRu.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
