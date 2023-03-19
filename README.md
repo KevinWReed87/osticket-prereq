@@ -75,10 +75,9 @@ Install and enable IIS in Windows WITH CGI. Right click start select run, type c
   Then select World Wide Web Services -> Application Development Features -> CGI then press ok for installation.
 <br />
 
+<p><img src="https://i.imgur.com/dt92GjH.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+From the installation files download and install PHP Manager for IIS  (PHPManagerForIIS_V1.5.0.msi). Also download Rewrite Module (rewrite_amd64_en-US.msi)
+
 </p>
 <br />
