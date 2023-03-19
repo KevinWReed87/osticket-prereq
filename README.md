@@ -78,6 +78,7 @@ Install and enable IIS in Windows WITH CGI. Right click start select run, type c
 <p><img src="https://i.imgur.com/dt92GjH.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p>
 <p>
 From the installation files download and install PHP Manager for IIS  (PHPManagerForIIS_V1.5.0.msi). Also download Rewrite Module (rewrite_amd64_en-US.msi)
-
 </p>
+<p><img src="https://i.imgur.com/AKeFDBm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p>
+<p>Create a PHP folder inside the C: directory</p>
 <br />
