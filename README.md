@@ -82,3 +82,8 @@ From the installation files download and install PHP Manager for IIS  (PHPManage
 <p><img src="https://i.imgur.com/AKeFDBm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p>
 <p>Create a PHP folder inside the C: directory</p>
 <br />
+
+<p><img src="https://i.imgur.com/oW2wXGm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/></p>
+<p>Download and extract all PHP files in to the previously created PHP folder under C:.
+
+</p>
